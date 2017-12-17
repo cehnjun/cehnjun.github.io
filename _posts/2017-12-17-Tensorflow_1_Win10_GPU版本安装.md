@@ -37,6 +37,6 @@ tags: 博客
 首次运行如果出错，提示网络连接中断，一般是数据集下载中断，需要借助梯子上网。成功后如下显示使用 **GPU** 设备：
 **（/device:GPU:0）**
 
-![](/images/posts/markdown/MNIST1.png)
+![](/images/posts/markdown/MNIST1.PNG)
 
-![](/images/posts/markdown/MNIST2.png)
+![](/images/posts/markdown/MNIST2.PNG)
