@@ -9,7 +9,7 @@ tags: 博客
 ### 1. VS2015安装
 要编译 **CUDA** 里的例子工程可以安装 **VS2015** ，不安装对于使用 **tensorflow-gpu** 没有影响，建议先安装 **VS2015** 以备后续使用例子需要。去官网下载 **VS2015** ，选择 **C++** 模块安装即可。按照官网说明匹配相应的 **Compiler** 即可，不用一定是 **VS2015** ：
 
-![CUDA](..\images\posts\markdown\CUDA1.PNG)  
+![](/images/posts/markdown/CUDA1.PNG)  
 
 ### 2. CUDA安装
 本文作者在安装 **tensorflow-gpu** 时，tenforflow-gpu支持的 **CUDA** 最高版本还是  [CUDA Toolkit 8.0 - Feb 2017](https://developer.nvidia.com/cuda-toolkit-archive)，去官网下载相应安装程序默认安装即可。可以到[CUDA-Enabled GeForce Products](https://developer.nvidia.com/cuda-gpus)查看GPU支持，环境变量由安装程序默认配置好。(安装路径不用管，即使改了路径，依然会安装在 **C** 盘路径)
@@ -37,6 +37,6 @@ tags: 博客
 首次运行如果出错，提示网络连接中断，一般是数据集下载中断，需要借助梯子上网。成功后如下显示使用 **GPU** 设备：
 **（/device:GPU:0）**
 
-![MNIST1](..\images\posts\markdown\MNIST1.png)
+![](/images/posts/markdown/MNIST1.png)
 
-![MNIST2](..\images\posts\markdown\MNIST2.png)
+![](/images/posts/markdown/MNIST2.png)
